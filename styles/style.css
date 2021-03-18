@@ -6,12 +6,12 @@ body {
     --color3: hsla(200, 61%, 56%, 1);
     --color4: hsla(187, 41%, 94%, 1);
     --color5: hsla(170, 28%, 95%, 1); */
-/* 
-    /* --color1: hsla(45, 86%, 83%, 1);
-    --color2: hsla(135, 65%, 98%, 1);
-    --color3: hsla(315, 37%, 86%, 1);
-    --color4: hsla(45, 73%, 98%, 1);
-    --color5: hsla(224, 40%, 79%, 1); */
+
+    --color1:  #C86BFA;
+    --color2:  #47026C;
+    --color3: #E4AFFF;
+    --color4: #e7ce3e;
+    --color5: #eee16e;
     
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
@@ -20,6 +20,32 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
+    font-weight: bolder;
+}
+
+#addButton {
+    background-color: #47026C;
+    color: #e7ce3e;
+}
+
+#subtractButton {
+    background-color: #47026C;
+    color: #e7ce3e;
+}
+
+#divideButton {
+    background-color: #47026C;
+    color: #e7ce3e;
+}
+
+#multiplyButton {
+    background-color: #47026C;
+    color: #e7ce3e;
+}
+
+#input1, #input11, #input2, #input22, 
+#input3, #input33, #input4, #input44 {
+    background-color: #E4AFFF;
 }
 
 main {
